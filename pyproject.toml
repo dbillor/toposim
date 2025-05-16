@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toposim"
+version = "0.0.1"
+description = "Topology + traffic simulator"
+authors = [{name="Your Name"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
